@@ -19,7 +19,7 @@ app.set('view engine', 'handlebars');
 var routes = require('./controllers/routes.js');
 app.use('/',routes);
 
-var port = 3000;
+var port = 3002;
 app.listen(port, function (){
     console.log("Server is listening on: http//localhost:" + port);
 });
